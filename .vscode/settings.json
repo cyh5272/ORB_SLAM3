@@ -58,3 +58,81 @@
         "typeinfo": "cpp"
     }
 }
+{
+    "update.mode": "manual",
+    "cmake.configureOnOpen": true,
+    "extensions.ignoreRecommendations": true,
+    "git.autofetch": true,
+    "explorer.confirmDelete": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "remote.SSH.remotePlatform": {
+        "rock": "linux",
+        "192.168.33.128": "linux",
+        "192.168.20.25": "linux"
+    },
+    "cmake.showOptionsMovedNotification": false,
+    "git.enableSmartCommit": true,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.revealIfOpenEditors": true,
+    "editor.fontFamily": "Cascadia Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "makefile.configureOnOpen": true,
+    "geminicodeassist.project": "xichencheng",
+    "geminicodeassist.inlineSuggestions.enableAuto": true,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "Codegeex.Privacy": true,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "ignore": false,
+        "cpp": true
+    },
+    "trae.chatLanguage": "cn",
+    "python.defaultInterpreterPath": "c:\\Program Files\\Python310\\python.exe",
+    "editor.formatOnSave": true,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.experimental.showMoves": true,
+    "trae.tab.enableAutoImport": false,
+    "trae.tab.cue": true,
+    "trae.advanced": {
+        "enableRename": false,
+        "logLevel": "info",
+        "logFile": false,
+        "outOfScopeProcess": false,
+        "trae.tab.enableRename": false,
+        "trae.tab.enableAutoImport": false,
+        "debounceInterval": 125,
+        "proxyMode": "system",
+        "proxyUrl": "",
+        "addToChatHint": true,
+        "enableAutoImport": true
+    },
+    "editor.defaultFormatter": "ms-vscode.cmake-tools",
+    "[cmake]": {
+        "editor.defaultFormatter": "josetr.cmake-language-support-vscode"
+    },
+    "trae.enableCodelens": {
+        "enableInlineDocumentation": true
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "C_Cpp.inlayHints.referenceOperator.showSpace": true,
+    "C_Cpp.inlayHints.referenceOperator.enabled": true,
+    "C_Cpp.inlayHints.parameterNames.enabled": true,
+    "trae.tab.enableRename": false,
+    "trae.enableAddToChatTips": false,
+    "chat.viewSessions.orientation": "stacked",
+    "diffEditor.hideUnchangedRegions.enabled": true
+}
